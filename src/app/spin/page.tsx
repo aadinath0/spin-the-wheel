@@ -52,7 +52,7 @@ const SpinPage = () => {
       } finally {
         setIsSpinning(false);
       }
-    }, 3000); // Match the CSS transition duration
+    }, 1000); // Match the CSS transition duration
   };
 
 
